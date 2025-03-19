@@ -1,6 +1,7 @@
 .main {
     text-align: center;
     font-size: 40pt;
+    
 }
 * {
     font-family: "Barriecito", system-ui;
@@ -10,9 +11,9 @@
 }
 .possibilities {
     text-align: center;
-    width: 140px;
-    height: 60px;
-    font-size: 30px;
+    width: 180px;
+    height: 80px;
+    font-size: 45px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +21,33 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
 }
 body {
     background: linear-gradient(90deg, grey, rgb(101, 97, 97));
 }
+#LogIn {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    width: 80px; height: 40px;
+    font-size: 17px;
+    background-color: rgba(101, 97, 97, 0.5);
+    border: none;
+    border-radius: 10px;
+    
+}
+#SignUp {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 70px; height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: antiquewhite;
+}
+
