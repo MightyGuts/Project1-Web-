@@ -6,7 +6,7 @@
     <title>SignUp</title>
     <link rel="stylesheet" href="SignUp.css">
     <!--Icon--> 
-    <link rel="shortcut icon" href="Media\images\IconProfect1Web1.png">
+    <link rel="shortcut icon" href="/Project1/Media/images/IconProfect1Web1.png">
     <!--Icon/--> 
     <!-- Font1  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,14 +16,25 @@
 </head>
 <body>
 <div class="SignUp">
-    <p><h1>Sign Up</h1></p>
-    <form>
-        <label>Name:</label><br>
-        <label>Surname:</label><br>
-        <label>Email:</label><br>
-        <label>Password:</label><br>
-        <button id="SignUpButton">Sign Up</button>
+    <form action="/Project1/events/events.html">
+        <button class="back"><p><h3>back</h3></p></button>
     </form>
+<div class="form">
+    <p><h1>Sign Up</h1></p>
+    <form id="registerForm">
+        <label>Name:</label><br>
+        <input name="username" type="text" required><br>
+        <label>Surname:</label><br>
+        <input name="surname" type="text" required><br>
+        <label>Email:</label><br>
+        <input name="email" type="email" required><br>
+        <label>Password:</label><br>
+        <input name="password" type="text" required><br>
+        <button type="submit" id="SignUpButton">Sign Up</button>
+    </form>
+    <p id="output"></p>
+    <script src="SignUp.js"></script>
+</div>
 </div>
     
     
