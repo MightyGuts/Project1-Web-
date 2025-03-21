@@ -1,7 +1,6 @@
 .main {
     text-align: center;
     font-size: 40pt;
-    
 }
 * {
     font-family: "Barriecito", system-ui;
@@ -9,9 +8,12 @@
     font-style: normal;
     
 }
-.possibilities {
+button {
+    cursor: pointer;
+}
+.more {
     text-align: center;
-    width: 180px;
+    width: 200px;
     height: 80px;
     font-size: 45px;
     box-sizing: border-box;
@@ -24,13 +26,14 @@
     background-color: black;
     color: antiquewhite;
     border: none;
+    margin-right: 210px;
 }
 body {
     background: linear-gradient(90deg, grey, rgb(101, 97, 97));
 }
 #LogIn {
     position: absolute;
-    right: 70px;
+    right: 80px;
     top: 10px;
     width: 80px; height: 40px;
     font-size: 17px;
@@ -41,7 +44,7 @@ body {
 }
 #SignUp {
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 10px;
     width: 70px; height: 40px;
     font-size: 17px;
@@ -49,5 +52,18 @@ body {
     border: none;
     background-color: black;
     color: antiquewhite;
+}
+#eventsImage {
+    border-radius: 20px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.8);
+}
+#OnclikDescription {
+    margin-left: 220px;
+    font-size: 40px;
+    display: inline;
 }
 
