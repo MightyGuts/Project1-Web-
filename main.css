@@ -1,6 +1,6 @@
 .main {
     text-align: center;
-    font-size: 40pt;
+    font-size: 60pt;
 }
 * {
     font-family: "Barriecito", system-ui;
@@ -17,8 +17,9 @@ button {
     height: 80px;
     font-size: 45px;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    right: 210px;
+    bottom: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,17 +27,17 @@ button {
     background-color: black;
     color: antiquewhite;
     border: none;
-    margin-right: 210px;
+    position: absolute;
 }
 body {
     background: linear-gradient(90deg, grey, rgb(101, 97, 97));
 }
 #LogIn {
     position: absolute;
-    right: 80px;
+    right: 120px;
     top: 10px;
-    width: 80px; height: 40px;
-    font-size: 17px;
+    width: 100px; height: 50px;
+    font-size: 22px;
     background-color: rgba(101, 97, 97, 0.5);
     border: none;
     border-radius: 10px;
@@ -46,8 +47,8 @@ body {
     position: absolute;
     right: 15px;
     top: 10px;
-    width: 70px; height: 40px;
-    font-size: 17px;
+    width: 100px; height: 50px;
+    font-size: 22px;
     border-radius: 10px;
     border: none;
     background-color: black;
@@ -64,6 +65,17 @@ body {
 #OnclikDescription {
     margin-left: 220px;
     font-size: 40px;
-    display: inline;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
+/* #events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+} */
+#events {
+    position: relative;
+}
