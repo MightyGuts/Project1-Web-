@@ -28,3 +28,16 @@ ButtonEventsMouseout.addEventListener("mouseout", function () {
     ButtonEventsMouseout.style.transform = "scale(1)";
     ButtonEventsMouseout.textContent = "Mouseover";
 });
+//Back Button
+const back = document.getElementById("back");
+    back.addEventListener("mouseover", function () {
+    back.style.border = "1px solid white";
+    back.style.transform = "scale(1.1)";
+    back.style.transition = "transform 0.5 ease";
+});
+const back2 = document.getElementById("back");
+    back2.addEventListener("mouseout", function () {
+    back2.style.border = "none";
+    back2.style.transform = "scale(1)";
+});
+//Back Button/
